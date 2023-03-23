@@ -1,0 +1,486 @@
+@media only screen and (max-width:800px) {
+	.fistimage img{
+        width: 1000px;
+
+    }
+    section{
+        overflow: hidden;
+        height: 8975px;
+   }
+    .yellow{
+      top: -570px;
+      left: 30px;
+      width: 90%;
+      height: 250px;
+    }
+    .head{
+        top: -800px; 
+        position: relative;
+       
+    }
+    
+    .head .local {
+        color: #fff;
+        font-family: 'Golos Text', sans-serif;
+        font-size: 18px;
+        top: -100px;
+        width: 400px;
+        position: relative;
+        left: -240px;
+    }
+    .local  i{
+        position: relative;
+        margin-left: -60px;
+        top: -40px;
+        font-size: 33px;
+       
+    }
+
+    .head .phone {
+        color: #fff;
+        font-family: 'Golos Text', sans-serif;
+        font-size: 18px;
+        top: -20px;
+        width: 400px;
+        position: relative;
+        left: -640px;
+    }
+    .phone  i{
+        position: relative;
+        margin-left: -60px;
+        top: -40px;
+        font-size: 33px;
+       
+    }
+    .head .mess {
+        color: #fff;
+        font-family: 'Golos Text', sans-serif;
+        font-size: 18px;
+        top: 55px;
+        width: 400px;
+        position: relative;
+        left: -1040px;
+    }
+    .mess i{
+        position: relative;
+        margin-left: -60px;
+        top: -40px;
+        font-size: 33px;
+       
+    }
+    .fistbutton button{
+        top: 250px;
+        position: relative;
+        left: -1143px;
+        background: #FFA600;
+        border: none;
+        color: #fff;
+        font-family: 'Golos Text', sans-serif;
+        width: 165px;
+        height: 50px;
+        font-size: 18px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    .present{
+        background: #fff;
+        width: 450px;
+        height: 400px;
+        justify-content: center;
+        text-align: center;
+        left: 32px;
+        position: relative;
+        top: -590px;
+        border-bottom: 1px solid rgba(128, 128, 128, 0.559);
+    }
+
+    .present h1{
+        top: 110px;
+        margin-bottom: 20px;
+        position: relative;
+        font-family: 'Golos Text', sans-serif;
+        font-size: 30px;
+        color: rgba(0, 0, 0, 0.775);
+    }
+    .present h6{
+        top: 100px;
+        position: relative;
+        font-size: 20px;
+        color:#FFA600 ;
+        font-family: 'Poppins', sans-serif;
+    
+    }
+    .lespraphs {
+        top: 130px;
+        position: relative;
+        font-size: 17px;
+    }
+    
+    .profile img{
+        border-radius: 150%;
+        position: relative;
+       top: -320px;
+    }
+     .lesicones{
+        font-size: 25px;
+        top: -100px;
+        position: relative;
+     }
+    
+     .navigation{
+        top: -550px;
+        position: relative;
+        left: 20px;
+    }
+
+    .link{
+        margin-left: -13px;
+        top: 35px;
+        position: relative;
+    }
+    .link li {
+        display: inline-flex;
+        padding: 15px;
+        font-size: 19px;
+        color: rgba(0, 0, 0, 0.576);
+        font-family: 'PT Sans', sans-serif;
+        font-weight: bold;
+      
+    }
+    .mesimages{
+        top: 180px;
+        position: relative;
+        flex-wrap: wrap;
+    }
+
+    .mesimages img{
+        flex-direction: column;
+        width: 100%;
+   }
+   .left img{
+    position: relative; 
+    width:50%;
+    display: inline-flex;
+    left:5px;
+    top: 450px;
+    padding-right: 10px; 
+}
+  .center img{
+    position: relative;
+    left: 20px;
+    width:50%;
+    display: inline-flex;
+    left:5px;
+    top: -590px;
+  }
+
+  .green{
+    position: relative;
+    width: 60px;
+    height: 10px;
+    background:#FFA600;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    top: 3150px;
+    left: 55px;
+}
+.about{
+    top: -1020px;
+    position: relative;
+    left: 50px;
+}
+.about h1{
+    font-family: 'Golos Text', sans-serif;
+    font-size:20px;
+    color: rgba(0, 0, 0, 0.812);
+    margin-bottom: 11px;
+}
+.about h6{
+    font-size: 10px;
+    color: rgba(72, 70, 70, 0.491);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.about p{
+    position: relative;
+    left: 10px;
+    top: 20px;
+    line-height: 1.9;
+    font-size: 1em;
+    font-weight: 400;
+    color: #777; 
+    font-family: 'Golos Text', sans-serif;  
+     width: 80%;
+}
+.row{
+    display:inline;
+     left:25px;
+     position: relative;
+    top: 120px;
+    text-align: center; 
+}
+.row h6{
+    font-size: 15px;
+    font-family: 'sans serif';
+}
+.row h1{
+    font-size: 30px;
+}
+.html, .web, .java ,.php{
+    margin-bottom:120px;
+     position: relative;
+     font-size: 75px; 
+  }
+  .ronUn{
+     position: relative;
+     left:110px;
+     top: -680px;
+   }
+   .rondeux{
+    position: relative;
+    left:110px;
+    top: -670px;
+}
+.rontrois{
+    position: relative;
+    left:110px;
+    top: -660px;
+}
+.ronkatr{
+    position: relative;
+    left:110px;
+    top: -650px;
+}
+.beforelast{
+    top: -1600px;
+    position: relative;
+    background: #28023D;
+    width: 100%;
+    height: 1250px;
+}
+.outout{
+    position: relative;
+    left: 20px; 
+    top: 30px;
+    font-size: 20px;
+  }
+  .beforelast h1{
+    font-family: 'Golos Text', sans-serif;
+    font-size: 20px;
+    color: #ffffffeb;
+    margin-bottom: 11px;
+}
+.beforelast h6{
+    font-size: 12px;
+    color: gray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.junior{
+    position: relative;
+    left: 15px;
+    top: 80px;
+}
+.junior h1{
+    font-size: 20px;
+}
+ 
+.junior h4{
+    font-size: 13px;
+}
+.junior h5{
+    font-size: 13px;
+}
+
+  .junior p{
+    position: relative;
+    max-width: 480px;
+    font-size: 1.20em; 
+}
+.withpoint {
+    position: relative;
+    left: 30px;
+    top: 100px;
+}
+
+.senior{
+    position: relative;
+    left: 15px;
+    top: 80px;
+}
+.senior h1{
+    font-size: 20px;
+}
+.senior h4{
+    font-size: 13px;
+}
+.senior h5{
+    font-size: 13px;
+}
+
+.senior p{
+    position: relative;
+    max-width: 480px;
+    font-size: 1.20em;
+}
+.withnothingt{
+    position: relative;
+    left: 30px;
+    top: 100px;
+}
+
+.anothers{
+    position: relative;
+    left: 22px; 
+    top: -1560px;
+    margin-bottom: 0;
+  }
+  .trait{
+    display: none;
+  }
+  .poinUn{
+    display: none;
+  }
+  .poinUn1{
+    display: none;
+  }
+  .poindeux{
+    display: none;
+  }
+  .poindeux2{
+    display: none;
+  }
+  .pointroi{
+    display: none;
+  }
+  .refuse{
+    display: none;
+  }
+  .autre h1{
+  font-size: 20px;
+}
+.autre h6{
+   font-size: 10px;
+}
+
+
+.mollis{
+    position: relative;
+    left: 20px; 
+    top: 30px;
+    font-size: 20px;
+  }
+
+.mollis h1{
+    font-size: 20px;
+    left: -15px;
+    position: relative;
+}
+.mollis h4{
+    font-size: 13px;
+    left: -15px;
+    position: relative;
+}
+
+.mollis h5{
+    font-size: 13px;
+    left: -15px;
+    position: relative;
+}
+
+.mollis p{
+    position: relative;
+    max-width: 480px;
+    font-size: 1.20em;
+    left: -20px;
+}
+.citur{
+    position: relative;
+    left: -10px; 
+    top: 20px;
+  }
+  .citur h1{
+    font-size: 20px;
+}
+.citur h4{
+    font-size: 13px;
+}
+.citur h5{
+    font-size: 13px;
+}
+.citur p{
+    max-width: 480px;
+    font-size: 1.20em;
+}
+
+.forimg h1{
+ position: relative;
+ font-size: 82px;
+ top: -220px;
+ left: -10px;
+}
+.forimg p{
+    left: 55px;
+    position: relative;
+    top: -290px;
+    font-size: 20px;
+}
+
+.amet h1{
+    position: relative;
+    font-size: 92px;
+    top: -90px;
+    left: -350px;
+    font-size: 60px;
+   }
+   .amet p{
+    left: -265px;
+    position: relative;
+    top: -150px;
+    font-size: 20px;
+   }
+
+   .dolor h1{
+    position: relative;
+    font-size: 92px;
+    top: 50px;
+    left: -715px;
+    font-size: 60px;
+   }
+   .dolor p{
+    left: -610px;
+    position: relative;
+    top: -10px;
+    font-size: 20px;
+   }
+
+   .massa h1{
+    position: relative;
+    font-size: 92px;
+    top: 170px;
+    left: -1055px;
+    font-size: 60px;
+   }
+   .massa p{
+    left: -945px;
+    position: relative;
+    top: 110px;
+    font-size: 20px;
+   }
+
+.mylasttt{
+    position: relative;
+    top:580px;
+}
+.mylasttt .slide img{
+    height: 450px;
+}
+
+.footer{
+    position: relative;
+    top: 690px;
+}
+.footer p{
+    padding: 40px;
+    width: 100%;
+    font-size: 20px;
+}
+}

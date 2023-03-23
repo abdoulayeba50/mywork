@@ -1,0 +1,771 @@
+@import url('https://fonts.googleapis.com/css2?family=Golos+Text&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; 
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+section{
+     overflow: hidden;
+     height: 5999px;
+}
+
+.fistimage img{
+    height: 600px;
+    width: 100%;
+}
+.yellow{
+    background: #FFA600;
+    width: 1150px;
+    height: 120px;
+    top: -560px;
+    position: relative;
+    left: 200px;
+    border-radius: 10px;
+  
+}
+.head{
+    top: -740px; 
+    position: relative;
+    display: inline-flex;
+    left: 268px;
+}
+
+.head .local ,.phone, .mess{
+    padding: 95px;
+    color: #fff;
+    font-family: 'Golos Text', sans-serif;
+    font-size: 18px;
+}
+.local  i{
+    position: relative;
+    margin-left: -40px;
+    top: -32px;
+    font-size: 25px;
+   
+}
+.phone i{
+    position: relative;
+    margin-left: -40px;
+    top: -32px;
+    font-size: 25px;
+}
+.mess i{
+    position: relative;
+    margin-left: -40px;
+    top: -32px;
+    font-size: 25px;
+}
+.fistbutton button{
+    top: 230px;
+    position: relative;
+    right: 155px;
+    background: #FFA600;
+    border: none;
+    color: #fff;
+    font-family: 'Golos Text', sans-serif;
+    width: 165px;
+    height: 50px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.fistbutton button:hover{
+    transform: translateY(-5px);
+}
+.present{
+    background: #fff;
+    width: 700px;
+    height: 500px;
+    justify-content: center;
+    text-align: center;
+    left: 430px;
+    position: relative;
+    top: -600px;
+}
+
+.present h1{
+    top: 110px;
+    margin-bottom: 20px;
+    position: relative;
+    font-family: 'Golos Text', sans-serif;
+    font-size: 40px;
+    color: rgba(0, 0, 0, 0.775);
+}
+.present h6{
+    top: 100px;
+    position: relative;
+    font-size: 22px;
+    color:#FFA600 ;
+    font-family: 'Poppins', sans-serif;
+
+}
+.lespraphs {
+    top: 130px;
+    position: relative;
+    font-size: 20px;
+}
+.lespraphs span{
+    color: #777; 
+    font-family: 'Golos Text', sans-serif;
+    font-size: 19px; 
+}
+b{
+    font-family: 'Golos Text', sans-serif;
+    font-weight: bold; 
+}
+
+.profile img{
+    border-radius: 100%;
+    position: relative;
+   top: -350px;
+}
+ .lesicones{
+    font-size: 30px;
+    top: -100px;
+    position: relative;
+ }
+.lesicones i{
+ padding: 10px;
+ color: rgba(60, 55, 55, 0.845);
+ cursor: pointer;
+ transform: 0.5px;
+}
+.lesicones i:hover{
+    color: #FFA600;
+}
+.navigation{
+    top: -610px;
+    position: relative;
+    left: 120px;
+}
+.navigation .orange{
+    width: 60px;
+    height: 10px;
+    background:#FFA600;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.navigation h1{
+    font-family: 'Golos Text', sans-serif;
+    font-size: 30px;
+    color: rgba(0, 0, 0, 0.812);
+    margin-bottom: 11px;
+}
+.navigation h6{
+    font-size: 16px;
+    color: rgba(72, 70, 70, 0.491);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.link{
+    margin-left: 450px;
+    top: -29px;
+    position: relative;
+}
+.link li {
+    display: inline-flex;
+    padding: 15px;
+    font-size: 19px;
+    color: rgba(0, 0, 0, 0.576);
+    font-family: 'PT Sans', sans-serif;
+    font-weight: bold;
+  
+}
+a{
+    text-decoration: none;
+    color: #999;
+    transition: 0.3s;
+}
+a:hover{
+ color: #FFA600; 
+}
+.mesimages{
+    top: 40px;
+    position: relative;
+    flex-wrap: wrap;
+}
+.mesimages img{
+     float: left; 
+     width: 33.3%;
+     padding-right: 10px; 
+     display: inline;
+     top: -600px;
+     position: relative;
+     margin-bottom: 14px;
+}
+.left img{
+    position: relative; 
+    width:16.5%;
+    display: inline-flex;
+    left: -999px;
+    top: -947px;
+    padding-right: 5px; 
+}
+.center img{
+    position: relative; 
+    width:16.5%;
+    left: -500px;
+    top: -610px;
+    padding-right: 5px;
+}
+.lastimg{
+    position: relative;
+    left: 500px;
+    top: -695px;
+}
+ .green{
+    position: relative;
+    width: 60px;
+    height: 10px;
+    background:#FFA600;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    top: 863px;
+    left: 155px;
+
+}
+.about{
+    top: -490px;
+    position: relative;
+    left: -850px;
+}
+.about h1{
+    font-family: 'Golos Text', sans-serif;
+    font-size: 35px;
+    color: rgba(0, 0, 0, 0.812);
+    margin-bottom: 11px;
+}
+.about h6{
+    font-size: 14px;
+    color: rgba(72, 70, 70, 0.491);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.about p{
+     position: relative;
+     left: 400px;
+     top: -70px;
+     line-height: 1.9;
+     font-size: 1.12em;
+     font-weight: 400;
+     color: #777; 
+     font-family: 'Golos Text', sans-serif;  
+      width: 115%;
+}
+.row{
+    display: inline-flex;
+     left:1440px;
+     position: relative;
+    top: -300px;
+    text-align: center;  
+}
+
+.html, .web, .java ,.php{
+    margin-right: 150px;
+     position: relative;
+  }
+
+.row h6{
+    font-size: 14px;
+    font-family: 'sans serif';
+}
+
+ .ronUn{
+ position: absolute;
+  position: relative;
+  height: 180px;
+  width: 180px;
+  left:1397px;
+  border: 5px solid #FFA600;
+  border-radius: 50%;
+  top: -423px;
+}
+.rondeux{
+    position: absolute;
+    position: relative;
+    height: 180px;
+    width: 180px;
+    left:1635px;
+    border: 5px solid #FFA600;
+    border-radius: 50%;
+    top: -600px;  
+}
+.rontrois{
+    position: absolute;
+    position: relative;
+    height: 180px;
+    width: 180px;
+    left:1870px;
+    border: 5px solid #FFA600;
+    border-radius: 50%;
+    top: -780px; 
+}
+.ronkatr{
+    position: absolute;
+    position: relative;
+    height: 180px;
+    width: 180px;
+    left:2086px;
+    border: 5px solid #FFA600;
+    border-radius: 50%;
+    top: -961px;
+}
+.beforelast{
+    top: -863px;
+    position: relative;
+    background: #28023D;
+    width: 100%;
+    height: 1150px;
+    top: -1350px;
+}
+.outout{
+  position: relative;
+  left: 155px; 
+  top: 100px;
+}
+.beforelast .ornagetrois{
+    position: relative;
+    width: 60px;
+    height: 10px;
+    background:#FFA600;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.beforelast h1{
+    font-family: 'Golos Text', sans-serif;
+    font-size: 35px;
+    color: #ffffffeb;
+    margin-bottom: 11px;
+}
+.beforelast h6{
+    font-size: 15px;
+    color: gray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.junior{
+    position: relative;
+    left: 600px;
+    color: #fff;
+}
+.junior h1{
+    color: #fff;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ 
+.junior h4{
+    color: #FFA600;
+    font-family: 'Golos Text', sans-serif;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+.junior h5{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 40px;
+    font-size: 16px;
+}
+
+  .junior p{
+    position: relative;
+    max-width: 600px;
+    word-wrap: break-word;
+    line-height: 1.5;
+    font-size: 1.20em;
+    font-weight: 400;
+    color: #b9acac; 
+    font-family: 'Golos Text', sans-serif;  
+    margin-bottom: 20px;
+    
+}  
+ .withpoint {
+    color: #dad2d2; 
+    position: relative;
+    left: 610px;
+    line-height: 2.5;
+    font-family: 'Golos Text', sans-serif;
+    font-size: 1.20em; 
+    margin-bottom: 30px;
+}
+
+.senior{
+    position: relative;
+    left: 600px;
+    color: #fff;
+}
+.senior h1{
+    color: #fff;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.senior h4{
+    color: #FFA600;
+    font-family: 'Golos Text', sans-serif;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+.senior h5{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 40px;
+    font-size: 16px;
+}
+
+.senior p{
+    position: relative;
+    max-width: 600px;
+    word-wrap: break-word;
+    line-height: 1.5;
+    font-size: 1.20em;
+    font-weight: 400;
+    color: #b9acac; 
+    font-family: 'Golos Text', sans-serif;  
+    margin-bottom: 20px;
+    
+}
+.withnothingt{
+    color: #dad2d2; 
+    position: relative;
+    left: 610px;
+    line-height: 2.5;
+    font-family: 'Golos Text', sans-serif;
+    font-size: 1.20em; 
+}
+
+.anothers{
+    position: relative;
+    left: 155px; 
+    top: -1250px;
+    margin-bottom: 0;
+  }
+  .autre .ornagekatre{
+      position: relative;
+      width: 60px;
+      height: 10px;
+      background:#FFA600;
+      border-radius: 5px;
+      margin-bottom: 20px;
+  }
+  
+  .autre h1{
+      font-family: 'Golos Text', sans-serif;
+      font-size: 35px;
+      color: black;
+      margin-bottom: 11px;
+  }
+  .autre h6{
+      font-size: 15px;
+      color: gray;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  .mollis{
+    position: relative;
+    left: 500px;
+    top: -90px;
+  }
+
+  .mollis h1{
+    color: #141313;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+}
+.mollis h4{
+    color: #FFA600;
+    font-family: 'Golos Text', sans-serif;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+.mollis h5{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 40px;
+    font-size: 14px;
+    color: #777;
+}
+
+.mollis p{
+    position: relative;
+    max-width: 600px;
+    word-wrap: break-word;
+    line-height: 1.5;
+    font-size: 1.25em;
+    font-weight: 400;
+    color: #1a1a1ae3; 
+    font-family: 'Golos Text', sans-serif;  
+    margin-bottom: 70px;
+    
+}
+
+.citur{
+    position: relative;
+    left: 500px;
+    top: -90px;
+  }
+
+  .citur h1{
+    color: #141313;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+}
+.citur h4{
+    color: #FFA600;
+    font-family: 'Golos Text', sans-serif;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+.citur h5{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 40px;
+    font-size: 14px;
+    color: #777;
+}
+
+.citur p{
+    position: relative;
+    max-width: 600px;
+    word-wrap: break-word;
+    line-height: 1.5;
+    font-size: 1.25em;
+    font-weight: 400;
+    color: #1a1a1ae3; 
+    font-family: 'Golos Text', sans-serif;  
+    margin-bottom: 70px;
+    
+}
+
+.lafin{
+    position: relative;
+    left: 500px;
+    top: -90px;
+  }
+
+  .lafin h1{
+    color: #141313;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+}
+.lafin h4{
+    color: #FFA600;
+    font-family: 'Golos Text', sans-serif;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+.lafin h5{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 40px;
+    font-size: 14px;
+    color: #777;
+}
+
+.lafin p{
+    position: relative;
+    max-width: 600px;
+    word-wrap: break-word;
+    line-height: 1.5;
+    font-size: 1.25em;
+    font-weight: 400;
+    color: #1a1a1ae3; 
+    font-family: 'Golos Text', sans-serif;  
+    margin-bottom: 20px;
+    
+}
+
+.trait{
+    position: absolute;
+    position: relative;
+    border-left: 3px solid rgba(98, 97, 97, 0.384);
+    height: 1040px;
+    left: 410px;
+    top: -1160px;
+}
+
+.poinUn{
+    position: absolute;
+    position: relative;
+    background: #FFA600;
+    width: 20px;
+    height:20px;
+    border-radius: 50%;
+    top: -2200px;
+    left: 400px;
+}
+.poinUn1{
+    position: absolute;
+    position: relative;
+    background: #ffa6005b;
+     width: 40px;
+     height:40px;
+     border-radius: 50%;
+     top: -2230px;
+     left: 390px;
+}
+
+.poindeux{
+    position: absolute;
+    position: relative;
+    background: #FFA600;
+    width: 20px;
+    height:20px;
+    border-radius: 50%;
+    top: -1884px;
+    left: 400px;
+}
+.poindeux2{
+    position: absolute;
+     position: relative;
+     background: #ffa6005b;
+     width: 40px;
+     height:40px;
+     border-radius: 50%;
+     top: -1914.5px;
+     left: 390px;  
+}
+
+.pointroi{
+    position: absolute;
+    position: relative;
+    background: #FFA600;
+    width: 20px;
+    height:20px;
+    border-radius: 50%;
+    top: -1572px;
+    left: 400px;
+}
+.refuse{
+    position: absolute;
+    position: relative;
+     background: #ffa6005b;
+     width: 40px;
+     height:40px;
+     border-radius: 50%;
+     top: -1602px;
+     left: 390px;
+}
+
+.mylasttt .slide img{
+    position: relative;
+    height: 300px;
+    width: 100%;
+    top: -2450px;
+}
+.forimg{
+    position: relative;
+    top: -2672px;
+    left: 200px;
+}
+.forimg h1{
+ position: relative;
+ color: #000;
+ font-size: 92px;
+ color: #fff;
+ right: 20px;
+ font-family: 'Golos Text', sans-serif;
+ font-weight: 600;
+}
+.forimg p{
+    left: 50px;
+    position: relative;
+    top: -77px;
+    color: #fff;
+    font-size: 23px;
+    font-family: 'Golos Text', sans-serif;
+    font-weight: 600;
+}
+
+.amet{
+    position: relative;
+    top: -2838px;
+    left: 530px;
+}
+.amet h1{
+ position: relative;
+ color: #000;
+ font-size: 89px;
+ color: #fff;
+ right: 70px;
+ font-family: 'Golos Text', sans-serif;
+ font-weight: 600;
+}
+.amet p{
+    left: 50px;
+    position: relative;
+    top: -77px;
+    color: #fff;
+    font-size: 23px;
+    font-family: 'Golos Text', sans-serif;
+    font-weight: 600;
+}
+
+.dolor{
+    position: relative;
+    top: -3000px;
+    left: 880px;
+}
+.dolor h1{
+ position: relative;
+ color: #000;
+ font-size: 80px;
+ color: #fff;
+ right: 90px;
+ font-family: 'Golos Text', sans-serif;
+ font-weight: 600;
+}
+.dolor p{
+    left: 50px;
+    position: relative;
+    top: -70px;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Golos Text', sans-serif;
+    font-weight: 600;
+}
+
+.massa{
+    position: relative;
+    top: -3150px;
+    left: 1220px;
+}
+.massa h1{
+ position: relative;
+ color: #000;
+ font-size: 80px;
+ color: #fff;
+ right: 110px;
+ font-family: 'Golos Text', sans-serif;
+ font-weight: 600;
+}
+.massa p{
+    left: 50px;
+    position: relative;
+    top: -65px;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Golos Text', sans-serif;
+    font-weight: 600;
+}
+
+.footer p{
+    font-size: 1.25em;
+    font-weight: 400;
+    color: #a89b9be3; 
+    font-family: 'Golos Text', sans-serif;  
+    text-align: center;
+    background: #28023D;
+    width: 100%;
+    height: 145px;
+    padding: 70px;
+    position: relative;
+    top: -3240px;
+}
+
+
+
